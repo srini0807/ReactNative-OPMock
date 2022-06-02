@@ -153,13 +153,13 @@ android {
         debug {
             storeFile file('oneplatform.keystore')
             storePassword 'D1g!t4l2o2!'
-            keyAlias 'oneplatformqa'
+            keyAlias 'OnePlatform'
             keyPassword 'D1g!t4l2o2!'
         }
         release { 
             storeFile file('oneplatform.keystore') 
             storePassword 'D1g!t4l2o2!'
-            keyAlias 'oneplatformqa'
+            keyAlias 'OnePlatform'
             keyPassword 'D1g!t4l2o2!'
         } 
     }
