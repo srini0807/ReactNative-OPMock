@@ -152,9 +152,9 @@ android {
     signingConfigs {
         debug {
             storeFile file('oneplatform.keystore')
-            storePassword 'android'
+            storePassword 'D1g!t4l2o2!'
             keyAlias 'oneplatformqa'
-            keyPassword 'android'
+            keyPassword 'D1g!t4l2o2!'
         }
         release { 
             storeFile file('oneplatform.keystore') 
