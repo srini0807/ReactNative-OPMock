@@ -151,16 +151,16 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('debug.keystore')
+            storeFile file('oneplatform.keystore')
             storePassword 'android'
-            keyAlias 'androiddebugkey'
+            keyAlias 'oneplatformqa'
             keyPassword 'android'
         }
         release { 
-            storeFile file('opmock.keystore') 
-            storePassword 'opmock'
-            keyAlias 'opmock_alias'
-            keyPassword 'opmock'
+            storeFile file('oneplatform.keystore') 
+            storePassword 'D1g!t4l2o2!'
+            keyAlias 'oneplatformqa'
+            keyPassword 'D1g!t4l2o2!'
         } 
     }
     buildTypes {
